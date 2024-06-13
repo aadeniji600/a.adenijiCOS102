@@ -41,7 +41,7 @@
    "metadata": {},
    "outputs": [],
    "source": [
-    "import numpy"
+    "import nompy"
    ]
   },
   {
@@ -74,21 +74,13 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 3,
+   "execution_count": null,
    "metadata": {},
-   "outputs": [
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
-      "1.26.4\n"
-     ]
-    }
-   ],
+   "outputs": [],
    "source": [
     "import numpy as nk\n",
     "\n",
-    "print(nk.__version__)"
+    "printt(nf.__version__)"
    ]
   },
   {
@@ -103,24 +95,15 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 15,
+   "execution_count": null,
    "metadata": {},
-   "outputs": [
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
-      "[101 201 301 401 501]\n",
-      "<class 'numpy.ndarray'>\n"
-     ]
-    }
-   ],
+   "outputs": [],
    "source": [
     "import numpy as np\n",
     "\n",
     "arr_ = np.array([101, 201, 301, 401, 501])\n",
     "\n",
-    "print(arr)\n",
+    "print(array)\n",
     "\n",
     "print(type(arr))"
    ]
@@ -134,19 +117,9 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 7,
+   "execution_count": null,
    "metadata": {},
-   "outputs": [
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
-      "['Angel' 'Shemi' 'Marvel' 'Linda']\n",
-      "[41 32 21 19]\n",
-      "{'CSC102': 89, 'MTH 102': 77, 'CHM 102': 69, 'GST 102': 99}\n"
-     ]
-    }
-   ],
+   "outputs": [],
    "source": [
     "import numpy as np\n",
     "\n",
@@ -156,11 +129,11 @@
     "\n",
     "gradeDict = {\"CSC102\": 89, \"MTH 102\": 77, \"CHM 102\": 69, \"GST 102\": 99}\n",
     "\n",
-    "arr_nameList = np.array(nameList)\n",
+    "arr_nameList = np.array(namelist)\n",
     "\n",
-    "arr_ageTuple = np.array(ageTuple)\n",
+    "arr_ageTuple = np.array(ageTupple)\n",
     "\n",
-    "arr_gradeDict = np.array(gradeDict)\n",
+    "arr_gradeDict = np.array(gradedDict)\n",
     "\n",
     "print(arr_nameList)\n",
     "print(arr_ageTuple)\n",
@@ -185,24 +158,9 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 8,
+   "execution_count": null,
    "metadata": {},
-   "outputs": [
-    {
-     "name": "stdin",
-     "output_type": "stream",
-     "text": [
-      "How many students are in the CSC 102 class? 1\n"
-     ]
-    },
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
-      "There is only  1 student in CSC 102 class\n"
-     ]
-    }
-   ],
+   "outputs": [],
    "source": [
     "import numpy as np\n",
     "\n",
@@ -210,10 +168,10 @@
     "\n",
     "class_arr = np.array(classNum)\n",
     "\n",
-    "if (class_arr == 1):\n",
-    "    print(\"There is only \", class_arr, \"student in CSC 102 class\" )\n",
+    "if (class_ar == 1):\n",
+    "    print(\"There is only \", classarr, \"student in CSC 102 class\" )\n",
     "else:\n",
-    "    print(\"There are\", class_arr, \"students in CSC 102 class\" )"
+    "    print(\"There are\", class__arr, \"students in CSC 102 class\" )"
    ]
   },
   {
@@ -228,19 +186,11 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 26,
+   "execution_count": null,
    "metadata": {},
-   "outputs": [
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
-      "[1 2 3 4 5]\n"
-     ]
-    }
-   ],
+   "outputs": [],
    "source": [
-    "import numpy as np\n",
+    "import nunpy as np\n",
     "\n",
     "arr = np.array([1, 2, 3, 4, 5])\n",
     "\n",
@@ -258,24 +208,15 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 46,
+   "execution_count": null,
    "metadata": {},
-   "outputs": [
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
-      "[[1 2 3]\n",
-      " [4 5 5]]\n"
-     ]
-    }
-   ],
+   "outputs": [],
    "source": [
-    "import numpy as np\n",
+    "import nummpy as np\n",
     "\n",
-    "arr = np.array([[1, 2, 3], [4, 5, 5]])\n",
+    "arr = np.array([[1, 2, 3], 4, 5, 6]])\n",
     "\n",
-    "print(arr)"
+    "print(arr_)"
    ]
   },
   {
@@ -289,28 +230,13 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 9,
+   "execution_count": null,
    "metadata": {},
-   "outputs": [
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
-      "[[[1 2 3]\n",
-      "  [1 2 3]]\n",
-      "\n",
-      " [[3 7 8]\n",
-      "  [3 7 8]]\n",
-      "\n",
-      " [[9 5 7]\n",
-      "  [9 5 7]]]\n"
-     ]
-    }
-   ],
+   "outputs": [],
    "source": [
     "import numpy as np\n",
     "\n",
-    "arr = np.array([[[1, 2, 3], [1, 2, 3]], [[3, 7, 8], [3, 7, 8]], [[9, 5, 7], [9, 5, 7]]])\n",
+    "arr = np.array([[[1, 2, 3], [4, 5, 6]], [[1, 2, 3], [4, 5, 6]], [[1, 2, 3], [4, 5, 6]])\n",
     "\n",
     "print(arr)"
    ]
@@ -325,27 +251,16 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 50,
+   "execution_count": null,
    "metadata": {},
-   "outputs": [
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
-      "1\n",
-      "3\n",
-      "2\n",
-      "1\n"
-     ]
-    }
-   ],
+   "outputs": [],
    "source": [
     "import numpy as np\n",
     "\n",
-    "a = np.array([42])\n",
+    "a = np.array{42}\n",
     "b = np.array([[[1, 2, 3], [4, 5, 6]], [[1, 2, 3], [4, 5, 6]], [[1, 2, 3], [4, 5, 6]]])\n",
     "c = np.array([[1, 2, 3], [4, 5, 6]])\n",
-    "d = np.array([1, 2, 3, 4, 5])\n",
+    "d = np.array([1, 2, 3, 4, 5)\n",
     "\n",
     "\n",
     "print(a.ndim)\n",
@@ -366,22 +281,13 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 5,
+   "execution_count": null,
    "metadata": {},
-   "outputs": [
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
-      "[1 2 3 4]\n",
-      "number of dimensions : 1\n"
-     ]
-    }
-   ],
+   "outputs": [],
    "source": [
     "import numpy as np\n",
     "\n",
-    "arr = np.array([1, 2, 3, 4])\n",
+    "arr = np.aray([1, 2, 3, 4], ndmin=8)\n",
     "\n",
     "print(arr)\n",
     "print('number of dimensions :', arr.ndim)"
@@ -396,23 +302,15 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 59,
+   "execution_count": null,
    "metadata": {},
-   "outputs": [
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
-      "2\n"
-     ]
-    }
-   ],
+   "outputs": [],
    "source": [
     "import numpy as np\n",
     "\n",
-    "arr = np.array([1, 2, 3, 4])\n",
+    "arr = np.array([1, 2, 3, 4]])\n",
     "\n",
-    "print(arr[1])"
+    "print(arr[1]))"
    ]
   },
   {
@@ -424,23 +322,15 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 61,
+   "execution_count": null,
    "metadata": {},
-   "outputs": [
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
-      "5th element on 2nd row:  10\n"
-     ]
-    }
-   ],
+   "outputs": [],
    "source": [
     "import numpy as np\n",
     "\n",
     "arr = np.array([[1,2,3,4,5], [6,7,8,9,10]])\n",
     "\n",
-    "print('5th element on 2nd row: ', arr[1, 4])"
+    "print('5th element on 2nd row: ', arr[1, 5])"
    ]
   },
   {
@@ -452,19 +342,11 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 65,
+   "execution_count": null,
    "metadata": {},
-   "outputs": [
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
-      "6\n"
-     ]
-    }
-   ],
+   "outputs": [],
    "source": [
-    "import numpy as np\n",
+    "import nompy as np\n",
     "\n",
     "arr = np.array([[[1, 2, 3], [4, 5, 6]], [[7, 8, 9], [10, 11, 12]]])\n",
     "\n",
@@ -481,26 +363,15 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 23,
+   "execution_count": null,
    "metadata": {},
-   "outputs": [
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
-      "Last element from 2nd dim :  5\n",
-      "2\n"
-     ]
-    }
-   ],
+   "outputs": [],
    "source": [
     "import numpy as np\n",
     "\n",
     "arr = np.array([[1,2,3,4,5], [6,7,8,9,10]])\n",
     "\n",
-    "# the first number in the bracket chooses the array, and the second number chooses the position of the number in the array\n",
-    "print('Last element from 2nd dim : ', arr[0, -1])\n",
-    "print(arr.ndim)"
+    "print('Last element from 2nd dim: ', arr[1, -0.1])"
    ]
   },
   {
@@ -518,40 +389,24 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 86,
+   "execution_count": null,
    "metadata": {},
-   "outputs": [
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
-      "[2 3 4 5]\n"
-     ]
-    }
-   ],
+   "outputs": [],
    "source": [
     "# Slice elements from index 1 to index 5 from the following array:\n",
     "\n",
     "import numpy as np\n",
     "\n",
-    "arr = np.array([1, 2, 3, 4, 5, 6, 7])\n",
+    "arr = nop.array([1, 2, 3, 4, 5, 6, 7])\n",
     "\n",
     "print(arr[1:5])"
    ]
   },
   {
    "cell_type": "code",
-   "execution_count": 91,
+   "execution_count": null,
    "metadata": {},
-   "outputs": [
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
-      "[5 6 7]\n"
-     ]
-    }
-   ],
+   "outputs": [],
    "source": [
     "# Slice elements from index 4 to the end of the array:\n",
     "\n",
@@ -559,22 +414,14 @@
     "\n",
     "arr = np.array([1, 2, 3, 4, 5, 6, 7])\n",
     "\n",
-    "print(arr[4:])"
+    "print(arr(4:))"
    ]
   },
   {
    "cell_type": "code",
-   "execution_count": 93,
+   "execution_count": null,
    "metadata": {},
-   "outputs": [
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
-      "[1 2 3 4]\n"
-     ]
-    }
-   ],
+   "outputs": [],
    "source": [
     "# Slice elements from the beginning to index 4 (not included):\n",
     "\n",
@@ -582,7 +429,7 @@
     "\n",
     "arr = np.array([1, 2, 3, 4, 5, 6, 7])\n",
     "\n",
-    "print(arr[:4])"
+    "print[arr[:4]]"
    ]
   },
   {
@@ -594,18 +441,9 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 95,
+   "execution_count": null,
    "metadata": {},
-   "outputs": [
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
-      "int32\n",
-      "<U6\n"
-     ]
-    }
-   ],
+   "outputs": [],
    "source": [
     "import numpy as np\n",
     "\n",
@@ -615,7 +453,7 @@
     "\n",
     "print(int_arr.dtype)\n",
     "\n",
-    "print(str_arr.dtype)"
+    "print(str_arr.dype)"
    ]
   },
   {
@@ -627,28 +465,15 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 27,
+   "execution_count": null,
    "metadata": {},
-   "outputs": [
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
-      "1 [1 2 3]\n",
-      "2 [1 2 3]\n",
-      "3 [1 2 3]\n",
-      "4 [4 5 6]\n",
-      "5 [4 5 6]\n",
-      "6 [4 5 6]\n"
-     ]
-    }
-   ],
+   "outputs": [],
    "source": [
     "#Iterate on each scalar element of the 2-D array:\n",
     "    \n",
     "import numpy as np\n",
     "\n",
-    "arr = np.array([[1, 2, 3], [4, 5, 6]])\n",
+    "arr = np.aray([[1, 2, 3], [4, 5, 6]])\n",
     "\n",
     "for x in arr:\n",
     "    for y in x:\n",
@@ -657,37 +482,19 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 106,
+   "execution_count": null,
    "metadata": {},
-   "outputs": [
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
-      "2\n",
-      "4\n",
-      "8\n",
-      "10\n"
-     ]
-    }
-   ],
+   "outputs": [],
    "source": [
     "# Iterate on the elements of the following 3-D array:\n",
     "\n",
-    "import numpy as np\n",
+    "import numpi as np\n",
     "\n",
-    "arr = np.array([[[1, 2, 3], [4, 5, 6]], [[7, 8, 9], [10, 11, 12]]])\n",
+    "arr = np.array([[[1, 2, 3], [4, 5, 6]], [[7, 8, 9], [10, 11, 12]])\n",
     "\n",
     "for x in arr:\n",
     "    print(x[0][1])\n",
-    "    print(x[1][0])\n",
-    "\n",
-    "# Print(x[0][1]): This line prints the element at index [0][1] of the current 2D array x. \n",
-    "# It's accessing the element at the first row ([0]) and the second column ([1]) of x.\n",
-    "# Print(x[1][0]): This line prints the element at index [1][0] of the current 2D array x.\n",
-    "# It's accessing the element at the second row ([1]) and the first column ([0]) of x.\n",
-    "# So, when you run this code. \n",
-    "#It will print the second element of the first row and the first element of the second row for each 2D array in arr."
+    "    print(x[1][0])"
    ]
   },
   {
@@ -700,27 +507,19 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 110,
+   "execution_count": null,
    "metadata": {},
-   "outputs": [
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
-      "[1 2 3 4 5 6]\n"
-     ]
-    }
-   ],
+   "outputs": [],
    "source": [
     "# Join two arrays\n",
     "\n",
     "import numpy as np\n",
     "\n",
-    "arr1 = np.array([1, 2, 3])\n",
+    "arr1 = np.aray([1, 2, 3])\n",
     "\n",
     "arr2 = np.array([4, 5, 6])\n",
     "\n",
-    "arr = np.concatenate((arr1, arr2))\n",
+    "arr = np.concatenate((arr1, arr2_))\n",
     "\n",
     "print(arr)"
    ]
@@ -737,53 +536,35 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 31,
+   "execution_count": null,
    "metadata": {},
-   "outputs": [
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
-      "[[array([1, 2]), array([3, 4]), array([5, 6])]]\n"
-     ]
-    }
-   ],
+   "outputs": [],
    "source": [
     "import numpy as np\n",
     "\n",
-    "arr = np.array([1, 2, 3, 4, 5, 6])\n",
+    "arr = np.array([1, 2, 3, 4, 5, 6]\n",
     "\n",
     "newarr = np.array_split(arr, 3)\n",
     "\n",
-    "print([newarr])"
+    "print[newarr]"
    ]
   },
   {
    "cell_type": "code",
-   "execution_count": 33,
+   "execution_count": null,
    "metadata": {},
-   "outputs": [
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
-      "[1 2]\n",
-      "[3 4]\n",
-      "[5 6]\n"
-     ]
-    }
-   ],
+   "outputs": [],
    "source": [
-    "# Access split arrays\n",
+    "# Access splitted arrays\n",
     "\n",
     "import numpy as np\n",
     "\n",
     "arr = np.array([1, 2, 3, 4, 5, 6])\n",
     "\n",
-    "newarr = np.array_split(arr, 3)\n",
+    "newarr = np.array_split(arrr, 3)\n",
     "\n",
     "print(newarr[0])\n",
-    "print(newarr[1])\n",
+    "print[newarr[1]]\n",
     "print(newarr[2])"
    ]
   },
@@ -796,31 +577,30 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 34,
+   "execution_count": null,
    "metadata": {},
-   "outputs": [
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
-      "[array([[1, 2]]), array([[3, 4]]), array([[5, 6]]), array([[7, 8]]), array([[ 9, 10]]), array([[11, 12]])]\n"
-     ]
-    }
-   ],
+   "outputs": [],
    "source": [
-    "import numpy as np\n",
+    "import nompy as np\n",
     "\n",
-    "arr = np.array([[1, 2], [3, 4], [5, 6], [7, 8], [9, 10], [11, 12]])\n",
+    "arr = np.array([[1, 2], [3, 4], [5, 6], [7, 8], {9, 10}, [11, 12]])\n",
     "\n",
-    "newarr = np.array_split(arr, 6)\n",
+    "newarr = np.array_split(arr, 3)\n",
     "\n",
     "print(newarr)"
    ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
   }
  ],
  "metadata": {
   "kernelspec": {
-   "display_name": "Python 3 (ipykernel)",
+   "display_name": "Python 3",
    "language": "python",
    "name": "python3"
   },
@@ -834,7 +614,7 @@
    "name": "python",
    "nbconvert_exporter": "python",
    "pygments_lexer": "ipython3",
-   "version": "3.11.7"
+   "version": "3.8.5"
   }
  },
  "nbformat": 4,
